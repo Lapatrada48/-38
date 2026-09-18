@@ -4,6 +4,9 @@
 # Output: พิมพ์ "Eligible" หากอายุตั้งแต่ 18 ปีขึ้นไป หรือ "Not Eligible" หากน้อยกว่า 18 ปี
 # ==========================================
 
+age = int(input("กรอกจํานวนเต็ม"))
+if age  >= 18:
+ print ("Eligible")
 
-# นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-age = int(input())
+else:
+ print ("Not Eligible")
